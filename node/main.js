@@ -17,8 +17,8 @@ const webPush = require('web-push');
 
 const pushSubscription = YOUR_SUBSCRIPTION_OBJECT;
 
-const vapidPublicKey = 'YOUR_VAPID_PUBLIC_KEY';
-const vapidPrivateKey = 'YOUR_VAPID_PRIVATE_KEY';
+const vapidPublicKey = 'BNwRIH4Jp9fCox-Hv2-3BRnJYAXE0D2YYBDxtynIYpoXPtiC6plNry15ldpokonVSXKyc7Z5OD61AwYtNDWQwqY';
+const vapidPrivateKey = 'RmxVxjfYgR8HwMTVEJqhZxN0WV2xh-H0rJ-QhimsAsY';
 
 const payload = 'Here is a payload!';
 
@@ -27,7 +27,7 @@ const options = {
 ',
   TTL: 60,
   vapidDetails: {
-    subject: 'mailto:YOUR_EMAIL_ADDRESS',
+    subject: 'mailto:diego.racero@gmail.com',
     publicKey: vapidPublicKey,
     privateKey: vapidPrivateKey
   }
